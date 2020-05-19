@@ -1,0 +1,7 @@
+.PHONY:all
+all:
+	arm-linux-objdump -D u-boot > u-boot.dis
+
+.PHONY:clean
+clean:
+	rm -rf u-boot.dis
