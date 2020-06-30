@@ -7,7 +7,7 @@ EXTRAVERSION =
 NAME =
 
 ARCH=arm
-CROSS_COMPILE=arm-linux-gnueabi-
+CROSS_COMPILE=arm-s3c2440-linux-gnueabi-
 
 # *DOCUMENTATION*
 # To see a list of typical targets execute "make help"
